@@ -5,6 +5,9 @@ import Login from "../views/Login.vue";
 import ResetPassword from "../views/ResetPassword.vue";
 import ForgetPassword from "../views/ForgetPassword.vue";
 import store from "../store";
+import MenuPage from "../components/MenuPage.vue";
+import HomePage from "../views/HomePage.vue";
+import ReservationPage from "../components/ReservationPage.vue";
 
 const routes = [
     
@@ -36,24 +39,40 @@ const routes = [
     
 
     {
-        path: '/login',
-        name: 'login',
-        component: Login,
-        meta: {
-            requiresGuest: true
-        }
+        path: '/home',
+        name: 'home',
+        component: HomePage,
     },
+    {
+        path: '/menu',
+        name: 'menu',
+        component: MenuPage,
+    },
+    {
+        path: '/reservations',
+        name: 'reservations',
+        component: ReservationPage,
+    }
 
-    {
-        path: '/forget-password',
-        name: 'forget-password',
-        component: ForgetPassword
-    },
-    {
-        path: '/reset-password',
-        name: 'reset-password',
-        component: ResetPassword
-    },
+    // {
+    //     path: '/login',
+    //     name: 'login',
+    //     component: Login,
+    //     meta: {
+    //         requiresGuest: true
+    //     }
+    // },
+
+    // {
+    //     path: '/forget-password',
+    //     name: 'forget-password',
+    //     component: ForgetPassword
+    // },
+    // {
+    //     path: '/reset-password',
+    //     name: 'reset-password',
+    //     component: ResetPassword
+    // },
    
 ];
 
