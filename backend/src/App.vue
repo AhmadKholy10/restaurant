@@ -1,7 +1,8 @@
 <template>
-  <div id="app">
-    <h1> Dashboard</h1>
-    <TestConnection />
+  <div>
+    <!-- <h1> Dashboard</h1> -->
+    <!-- <TestConnection /> -->
+    <router-view></router-view>
   </div>
 </template>
 
