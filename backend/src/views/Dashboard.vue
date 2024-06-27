@@ -29,6 +29,7 @@
         }
     },
     created() {
+      console.log("test")
     },
     methods: {
       selectSeries(series) {
