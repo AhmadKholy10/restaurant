@@ -26,9 +26,15 @@
 </template>
 
 <script>
-export default {
-
-}
+// import $ from 'jquery'; // Import jQuery
+// export default {
+//     mounted() {
+//     // NAVBAR COLLAPSE
+//     $('.navbar-collapse a').on('click', function() {
+//         $(".navbar-collapse").collapse('hide');
+//         });
+//     }
+// }
 </script>
 
 <style>
