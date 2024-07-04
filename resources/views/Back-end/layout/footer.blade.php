@@ -101,15 +101,22 @@ $(".navbar-collapse").collapse('hide');
 });
 
 $(function() {
-$('.hero-slides').vegas({
-    slides: [
-            { src: "{{ asset('Assets/images/slides/sincere-laugh-showing-picture-smartphone-casual-meeting-with-best-friends-restaurant-terrace.jpg') }}" },
-            { src: "{{ asset('Assets/images/happy-waitress-giving-coffee-customers-while-serving-them-coffee-shop.jpg') }}" },
-            { src: "{{ asset('Assets/images/young-female-barista-wear-face-mask-serving-take-away-hot-coffee-paper-cup-consumer-cafe.jpg') }}" }
-        ],
-    timer: false,
-    animation: 'kenburns',
-});
+    var branchInfoElement = document.getElementById('branch-info');
+
+      // Get the data attribute value
+    var branchName = branchInfoElement.getAttribute('data-branch-name');
+  
+    console.log(branchName);
+    $('.hero-slides').vegas({
+        slides: [
+                { src: "{{ asset('Assets/images/meal_1.jpg') }}" },
+                { src: "{{ asset('Assets/images/meal_2.jpg') }}" },
+                { src: "{{ asset('Assets/images/meal_3.jpg') }}" },
+                { src: "{{ asset('Assets/images/restaurant_staff_1.jpg') }}" },
+            ],
+        timer: false,
+        animation: 'kenburns',
+    });
 });
 
 // CUSTOM LINK

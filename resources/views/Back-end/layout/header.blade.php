@@ -32,8 +32,8 @@
                 <nav class="navbar navbar-expand-lg">                
                     <div class="container">
                         <a class="navbar-brand d-flex align-items-center" href="{{ route('home') }}">
-                            <img src="{{ asset('Assets/images/coffee-beans.png') }}" class="navbar-brand-image img-fluid" alt="Barista Cafe Template">
-                            Barista
+                            <img src="{{ asset('Assets/images/logo.png') }}" class="navbar-brand-image img-fluid">
+                            KL Bistro
                         </a>
         
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

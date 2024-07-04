@@ -8,14 +8,15 @@
 
                     <div class="container">
                         <div class="row align-items-center">
+                            <div id="branch-info" data-branch-name="Modoo">    </div>
 
                             <div class="col-lg-6 col-12 mx-auto">
-                                <em class="small-text">welcome to Barista.co</em>
+                                <em class="small-text">welcome to KL.co</em>
                                 
-                                <h1>Cafe Klang</h1>
+                                <h1>KL Bistro</h1>
 
                                 <p class="text-white mb-4 pb-lg-2">
-                                    your <em>favourite</em> coffee daily lives.
+                                    your <em>favourite</em> meals daily lives.
                                 </p>
 
                                 <a class="btn custom-btn custom-border-btn smoothscroll me-3" href="#section_2">
@@ -40,7 +41,7 @@
                             <div class="col-lg-6 col-12">
                                 <div class="ratio ratio-1x1">
                                     <video autoplay="" loop="" muted="" class="custom-video" poster="">
-                                        <source src="{{ asset('Assets/videos/pexels-mike-jones-9046237.mp4') }}" type="video/mp4">
+                                        <source src="{{ asset('Assets/videos/fried_fish.mp4') }}" type="video/mp4">
 
                                         Your browser does not support the video tag.
                                     </video>
@@ -48,7 +49,7 @@
                                     <div class="about-video-info d-flex flex-column">
                                         <h4 class="mt-auto">We Started Since 2009.</h4>
 
-                                        <h4>Best Cafe in Klang.</h4>
+                                        <h4>Best Restaurant in Middle east.</h4>
                                     </div>
                                 </div>
                             </div>
@@ -56,13 +57,13 @@
                             <div class="col-lg-5 col-12 mt-4 mt-lg-0 mx-auto">
                                 <em class="text-white">Barista.co</em>
 
-                                <h2 class="text-white mb-3">Cafe KL</h2>
+                                <h2 class="text-white mb-3">KL Bistro</h2>
 
-                                <p class="text-white">The café had been in the town for as long as anyone could remember, and it had become a beloved institution among the locals.</p>
+                                <p class="text-white">The restaurant had been in the town for as long as anyone could remember, and it had become a beloved institution among the locals.</p>
 
-                                <p class="text-white">The café was run by a friendly and hospitable couple, Mr. and Mrs. Johnson. Barista Cafe is free Bootstrap 5 HTML layout provided by <a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
+                                <p class="text-white">The restaurant was run by a friendly and hospitable couple, Mr. and Mrs. Johnson. KL Bistro is free Bootstrap 5 HTML layout provided by <a rel="nofollow" href="https://www.tooplate.com" target="_blank">Tooplate</a>.</p>
 
-                                <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet Baristas</a>
+                                <a href="#barista-team" class="smoothscroll btn custom-btn custom-border-btn mt-3 mb-4">Meet Staff</a>
                             </div>
 
                         </div>
@@ -75,7 +76,7 @@
                         <div class="row justify-content-center">
 
                             <div class="col-lg-12 col-12 text-center mb-4 pb-lg-2">
-                                <em class="text-white">Creative Baristas</em>
+                                <em class="text-white">Creative Staff</em>
 
                                 <h2 class="text-white">Meet People</h2>
                             </div>
@@ -89,7 +90,7 @@
                                             <p class="badge ms-4"><em>Boss</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives tempor.</p>
+                                        <p class="text-white mb-0">your favourite meal daily lives tempor.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
@@ -107,7 +108,7 @@
                                             <p class="badge ms-4"><em>Manager</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                        <p class="text-white mb-0">your favourite meal daily lives.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
@@ -125,7 +126,7 @@
                                             <p class="badge ms-4"><em>Senior</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily lives.</p>
+                                        <p class="text-white mb-0">your favourite meal daily lives.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
@@ -140,10 +141,10 @@
                                         <div class="d-flex mt-auto mb-3">
                                             <h4 class="text-white mb-0">Michelle</h4>
 
-                                            <p class="badge ms-4"><em>Barista</em></p>
+                                            <p class="badge ms-4"><em>Master chef</em></p>
                                         </div>
 
-                                        <p class="text-white mb-0">your favourite coffee daily consectetur.</p>
+                                        <p class="text-white mb-0">your favourite meal daily consectetur.</p>
                                     </div>
 
                                     <div class="team-block-image-wrap">
@@ -248,7 +249,7 @@
 
                             <div class="col-lg-6 col-12">
                                 <div class="menu-block-wrap">
-                                    <div class="text-center mb-4 pb-lg-2">
+                                    {{-- <div class="text-center mb-4 pb-lg-2">
                                         <em class="text-white">Favourite Menu</em>
                                         <h4 class="text-white">Coffee</h4>
                                     </div>
@@ -327,7 +328,90 @@
                                             <small>Rich Milk and Foam</small>
                                         </div>
                                     </div>
+                                </div> --}}
+
+                                <div class="text-center mb-4 pb-lg-2">
+                                    <em class="text-white">Delicious Menu</em>
+                                    <h4 class="text-white">Breakfast</h4>
                                 </div>
+
+                                <div class="menu-block">
+                                    <div class="d-flex">
+                                        <h6>Pancakes</h6>
+                                    
+                                        <span class="underline"></span>
+
+                                        <strong class="ms-auto">$12.50</strong>
+                                    </div>
+
+                                    <div class="border-top mt-2 pt-2">
+                                        <small>Fresh brewed coffee and steamed milk</small>
+                                    </div>
+                                </div>
+
+                                <div class="menu-block my-4">
+                                    <div class="d-flex">
+                                        <h6>
+                                            Toasted Waffle
+                                        </h6>
+                                    
+                                        <span class="underline"></span>
+
+                                        <strong class="text-white ms-auto"><del>$16.50</del></strong>
+
+                                        <strong class="ms-2">$12.00</strong>
+                                    </div>
+
+                                    <div class="border-top mt-2 pt-2">
+                                        <small>Brewed coffee and steamed milk</small>
+                                    </div>
+                                </div>
+
+                                <div class="menu-block">
+                                    <div class="d-flex">
+                                        <h6>Fried Chips
+                                            <span class="badge ms-3">Recommend</span>
+                                        </h6>
+                                    
+                                        <span class="underline"></span>
+
+                                        <strong class="ms-auto">$15.0</strong>
+                                    </div>
+
+                                    <div class="border-top mt-2 pt-2">
+                                        <small>Rich Milk and Foam</small>
+                                    </div>
+                                </div>
+
+                                <div class="menu-block my-4">
+                                    <div class="d-flex">
+                                        <h6>Pancakes</h6>
+                                    
+                                        <span class="underline"></span>
+
+                                        <strong class="ms-auto">$12.50</strong>
+                                    </div>
+
+                                    <div class="border-top mt-2 pt-2">
+                                        <small>Fresh brewed coffee and steamed milk</small>
+                                    </div>
+                                </div>
+
+                                <div class="menu-block">
+                                    <div class="d-flex">
+                                        <h6>Banana Cakes</h6>
+                                    
+                                        <span class="underline"></span>
+
+                                        <strong class="ms-auto">$18.0</strong>
+                                    </div>
+
+                                    <div class="border-top mt-2 pt-2">
+                                        <small>Rich Milk and Foam</small>
+                                    </div>
+                                </div>
+
+
                             </div>
 
                         </div>
